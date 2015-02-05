@@ -1,7 +1,8 @@
 #!/bin/sh
 
 # Test detonate, rsem, and bowtie. Last modified on 2015-02-02 by Brian High
-#
+# GitHub Repo: https://github.com/brianhigh/biotools/
+
 # Works on 64-bit Linux or Mac OSX systems. You must have already installed
 # development tools like XCode (OSX). For Ubuntu Linux, you can install with:
 # $ sudo apt-get update; sudo apt-get install build-essential
@@ -19,17 +20,8 @@
 # bowtie must already be installed and found in PATH list. See:
 # http://bowtie-bio.sourceforge.net/index.shtml
 #
-# For example, to install bowtie for Mac OSX, try:
-#
-# BINDIR=~/bin
-# URL='http://hivelocity.dl.sourceforge.net/project/bowtie-bio/bowtie/1.1.1/bowtie-1.1.1-macos-x86_64.zip'
-# OUTFILE='bowtie-1.1.1-macos-x86_64.zip'
-# curl -o "$OUTFILE" "$URL"
-# unzip "$OUTFILE"
-# cd $(basename "$OUTFILE" '-macos-x86_64.zip')
-# make
-# mkdir -p "$BINDIR"
-# cp bowtie* "$BINDIR"/
+# For example, to install bowtie for Mac OSX, try this script from our repo:
+# $ bash install_bowtie_osx_64.sh   # Read the comments first, though.
 
 # Most of the commands below came from this vignette:
 # http://deweylab.biostat.wisc.edu/detonate/vignette.html
