@@ -7,6 +7,7 @@
 # $ sudo apt-get update; sudo apt-get install build-essential
 # On a Max (OX) you will also need libpng, which you can install with "brew":
 # $ brew install libpng
+# You can find out how to install and use brew at: http://brew.sh/
 # 
 # Run the script as shown below to log standard output and error streams:
 # $ time bash -x ~/detonate_test.sh 2>detonate.err 1>detonate.log &
