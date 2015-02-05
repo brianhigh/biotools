@@ -19,9 +19,9 @@
 
 # bowtie must already be installed and found in PATH list. See:
 # http://bowtie-bio.sourceforge.net/index.shtml
-#
 # For example, to install bowtie for Mac OSX, try this script from our repo:
 # $ bash install_bowtie_osx_64.sh   # Read the comments first, though.
+# Or on Ubuntu Linux, just run: sudo apt-get install bowtie
 
 # Most of the commands below came from this vignette:
 # http://deweylab.biostat.wisc.edu/detonate/vignette.html
