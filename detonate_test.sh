@@ -25,7 +25,7 @@
 # OUTFILE='bowtie-1.1.1-macos-x86_64.zip'
 # curl -o "$OUTFILE" "$URL"
 # unzip "$OUTFILE"
-# cd $(basename "$OUTFILE")
+# cd $(basename "$OUTFILE" '-macos-x86_64.zip')
 # make
 # mkdir -p "$BINDIR"
 # cp bowtie* "$BINDIR"/
