@@ -8,10 +8,9 @@ git clone 'https://github.com/bli25wisc/RSEM.git'
 cd RSEM
 make
 make ebseq
-export PATH=$PATH:~/RSEM
+export PATH=$PATH:~/src/RSEM
 
-mkdir -p ~/src
-cd ~/src
+cd ..
 git clone 'https://github.com/trinityrnaseq/trinityrnaseq.git'
 cd trinityrnaseq/
 make clean
